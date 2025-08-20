@@ -1,0 +1,29 @@
+text,label
+"NuSTAR Early Observations of SN 2025rbs
+
+ATel #17303;  Brian Grefenstette (Caltech) on 23 Jul 2025; 16:31 UTCredential Certification: Brian Grefenstette (Bwgref@srl.caltech.edu)
+
+Subjects: Supernovae
+
+We report on early NuSTAR observations of the Type Ia supernova in NGC 7331 (https://www.wis-tns.org/object/2025rbs) at a distance of 14.7 Mpc. We triggered a NuSTAR DDT, which resulted in an observation starting at 2025-07-20T07:36:27 and lasting a day of linear time with an exposure time of roughly 41-ks. This was six days after the classification report (Andrews et al., TNS 21522) and roughly 6 days prior to peak optical emission. 
+ 
+ 
+We observed diffuse emission in the NuSTAR images in the 3-20 keV band covering the central ~arcmin of the galaxy, including the nominal source position for SN 2025rbs. Inspection of archival NuSTAR images in the same band from 2020 shows the majority of the emission is dominated at that time by a single point source. However, there are a number of potentially variable sources in the Chandra and XMM source catalogs that are spatially coincident with the NuSTAR emission. For example, the nearby Chandra source noted in archival data from Kong et al. (ATEL #17287). 
+ 
+ 
+We extract a NuSTAR spectrum from a 30-arcsec region centered on the coordinates for SN 2025rbs. We find that the resulting spectra appears to be soft in the 3-20 keV NuSTAR spectra. Fitting both of the FPMA and FPMB modules simultaneously, we find that the resulting source spectra are incompatible with a hard (gamma=1.4) absorbed power-law. Allowing the power-law index to vary results in an unphysically steep index (Gamma>4). If we instead adopt an absorbed diskbb component, we find a reasonably good fit using an unabsorbed disk component with a relatively high temperature (2.4 keV). Either case is likely an incorrect physical model, but provides a reasonable phenomenological fit to the data. The 3-10 keV (absorbed) flux is 2.1 ?¡À 1.0e-13 ergs / cm2 / sec in the 3-10 keV, which corresponds to a 3-10 keV luminosity of a roughly 5e39 ergs at a distance of 14.7 Mpc. This seems relatively high for a single X-ray binary in NGC 7331, but this may be the superposition of several active transient sources at once that are blended by the ~1-arcmin NuSTAR HPD. We conclude that we cannot positively identify the soft X-ray emission as being associated with SN 2025rbs.  
+ 
+ 
+We also inspect the NuSTAR images for any evidence of high-energy emission from the supernovae. We do not find evidence for a source in the 40-80 keV images. Net counts (both telescopes) from a 30-arcsec source region centered on the source was 82 counts, while the expectation from the background regions was 84 counts. 25 additional source counts would have been required for a 3-sigma detection. Assuming an average effective area of 20 cm2 in the 40-80 keV (both telescopes combined) results in an upper limit on the source flux of roughly 3e-5 ph / cm2 / sec in this band. 
+ 
+ 
+We thank the NuSTAR Science Operations team for a speedy scheduling of this observation and encourage additional soft X-ray follow-up observations to attempt to resolve the origin of the soft X-ray emission.","{
+  ""event_type"": ""Supernova"",
+  ""event_id"": ""SN 2025rbs"",
+  ""instrument"": ""NuSTAR"",
+  ""date"": ""2025-07-20"",
+  ""frequency_band"": ""3¨C20 keV"",
+  ""duration"": ""1 day"",
+  ""peak_flux"": ""2.1e-13 erg/cm^2/s (3¨C10 keV)"",
+  ""counterpart_detected"": false
+}"
